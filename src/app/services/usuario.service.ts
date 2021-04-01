@@ -7,8 +7,6 @@ import { Usuario } from '../models/usuario';
 export class UsuarioService {
   usuario: Usuario = new Usuario();
   constructor() {
-    this.usuario.usuarioId = 1;
-    this.usuario.nombre = 'Gregorio';
-    this.usuario.apellido = 'Avila';
+   
   }
 }

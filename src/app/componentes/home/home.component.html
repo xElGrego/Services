@@ -1,8 +1,6 @@
 <div class="container">
     <div class="articulo" *ngFor="let articulo of listArticulos">
-        <h1 (click)="iralDetalle(articulo)">Articulo: {{articulo.titulo}}</h1>
-        <h5>Descripcion : {{articulo.descripcion}} </h5>
-        <h5>Fecha: {{articulo.fecha | date}} </h5>
-        <h5>Usuario: {{articulo.usuario}}</h5>
+        <h3 (click)="iralDetalle(articulo)">Articulo: {{articulo.title}}</h3>
+        <h5>Descripcion : {{articulo.body}} </h5>
     </div>
 </div>

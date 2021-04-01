@@ -9,6 +9,7 @@ import { HomeComponent } from './componentes/home/home.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { ArticuloDetalleComponent } from './componentes/articulo-detalle/articulo-detalle.component';
 import { ArticuloService } from './services/articulo.service';
+import {HttpClientModule} from '@angular/common/http';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { ArticuloService } from './services/articulo.service';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   
   //Se importa los servicios dentro de providers

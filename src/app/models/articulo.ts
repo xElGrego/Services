@@ -1,8 +1,9 @@
 export class Articulo{
+  public userId: number
+  public id: number
+  public title: string;
+  public body: string
     constructor(
-        public titulo?: string,
-        public descripcion?: string,
-        public fecha?: Date,
-        public usuario?: string
+      
       ) {}
 }
